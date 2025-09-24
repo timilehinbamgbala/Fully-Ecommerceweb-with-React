@@ -1,0 +1,304 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 1.5rem;
+  background: #222;
+  color: #fff;
+  flex-wrap: wrap;
+}
+.navbar ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #f0a500;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  width: 60%;
+  max-width: 300px;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+.emptycart {
+  height: 100%;
+  width: 100%;
+}
+.emptycartp {
+  text-align: center;
+  font-style: italic;
+}
+.gotoshop {
+  background-color: #f0a500;
+  color: #fff;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+.gotoshopa {
+  text-decoration: none;
+}
+.gotoshop:hover {
+  background-color: #ac7600;
+  transition: 0.3s;
+}
+
+.cart {
+  font-size: 1rem;
+  margin-left: auto;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+}
+.hub {
+  color: black;
+  padding-right: 6px;
+  background-color: #f0a500;
+  font-weight: 700;
+  margin-left: 5px;
+  border-radius: 4px;
+}
+
+.cart {
+  font-size: 1rem;
+}
+
+.welcome {
+  padding: 1rem;
+  color: #333;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.product-card h3 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.price {
+  font-weight: bold;
+  margin: 0.5rem 0;
+  color: #2a9d8f;
+}
+
+.product-card button {
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.product-card button:hover {
+  background: #444;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+
+.links a:hover {
+  color: #555;
+}
+
+.cart-page {
+  padding: 1rem;
+}
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #fff;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.cart-item button {
+  margin-left: auto;
+  background: crimson;
+  color: #fff;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background: darkred;
+}
+.checkout-form select {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.checkout-page h2 {
+  margin-bottom: 1rem;
+}
+
+.checkout-page p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.checkout-page b {
+  color: green;
+}
+.checkout-page {
+  padding: 1rem;
+}
+
+.checkout-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  max-width: 400px;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.checkout-form button {
+  background: #f0a500;
+  color: #fff;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.checkout-form button:hover {
+  background: #ac7600;
+}
+
+.payment-area {
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.payment-area h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.payment-area p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .search-bar {
+    width: 100%;
+    margin-top: 0.5rem;
+    justify-content: flex-start;
+  }
+}

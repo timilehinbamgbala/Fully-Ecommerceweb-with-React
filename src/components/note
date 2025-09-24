@@ -1,0 +1,12 @@
+ <>
+          <img
+            className="emptycart"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9uZMrvukLTYkYwdxmBss0JIPzp0bWUmpA2tyw9yTegMRcxqJEQlSDgWl99DTROsSFC7w&usqp=CAU"
+          />
+          <p className="emptycartp">
+            Your cart is empty. Add items before checking out.
+          </p>
+          <a className="gotoshopa" href="/">
+            <button className="gotoshop">Go to Shop</button>
+          </a>
+        </>
